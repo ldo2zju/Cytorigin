@@ -1,3 +1,19 @@
 # CytOrigin
 CytOrigin is a generative model based on VAE for single-cell transcriptomic data interpolation, where two normalized expression matrices from an earlier and a later time point were used as input and the expression of the middle time point can be simulated.
 <img width="4233" height="1257" alt="资源 11" src="https://github.com/user-attachments/assets/8e8e5c1a-0c31-4325-b283-2ce849fb9d5d" />
+# Install and Run CytOrigin
+We provided the code used to run CytOrigin on this website. To run CytOrigin, you should create a new conda environment and install all dependency packages listed in requirements.txt
+## Create and activate conda environment with requirements installed.
+CytOrigin has only been tested with Python 3.13. To use CytOrigin, please create a new conda environment using the requirements.txt as the template.
+```
+conda create --name cytorigin --file requirements.txt
+conda activate cytorigin
+```
+## Install PyTorch
+We developped CytOrigin in a CUDA 12.4 environment. But you should select the version of PyTorch that is suitable to the CUDA version of your machine. You can find the appropriate version on the [PyTorch](https://github.com/ZJUFanLab/scNiche#:~:text=version%20on%20the-,PyTorch,-and%20DGL%20website) website.
+## Run CytOrigin
+For training the VAE model and simulation of the cell expression matrix of the middle time point, please refer to the two demo scripts in sequence:
+[Step 1 Training the model and interpolation](https://github.com/ldo2zju/Cytorigin/blob/main/CytOrigin_1_simulation.ipynb)
+[Step 2 Correct zero expressions](https://github.com/ldo2zju/Cytorigin/blob/main/CytOrigin_2_correction_zero_expression.ipynb)
+## About
+CytOrigin is developped by Haoxue Cao. Should you have any questions, please contact Haoxue Cao at [3200102931@zju.edu.cn](3200102931@zju.edu.cn).
