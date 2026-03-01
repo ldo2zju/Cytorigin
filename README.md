@@ -8,15 +8,15 @@
 ![anndata](https://img.shields.io/badge/anndata-0.11.4-blue) ![pandas](https://img.shields.io/badge/pandas-2.2.3-orange) ![numpy](https://img.shields.io/badge/numpy-2.2.4-green) ![scanpy](https://img.shields.io/badge/scanpy-1.11.1-purple) ![seaborn](https://img.shields.io/badge/seaborn-0.13.2-pink) ![torch](https://img.shields.io/badge/torch-2.6.0-red) ![matplotlib](https://img.shields.io/badge/matplotlib-3.10.1-gray)
 
 We provided the code used to run CytOrigin on this website. To run CytOrigin, you should create a new conda environment and install all dependency packages listed in requirements.txt
-## Create and activate conda environment with requirements installed.
+### Create and activate conda environment with requirements installed
 `CytOrigin` has only been tested with Python 3.13. To use CytOrigin, please create a new conda environment using the requirements.txt as the template.
 ```
 conda create --name cytorigin --file requirements.txt
 conda activate cytorigin
 ```
-## Install PyTorch
+### Install PyTorch
 We developped `CytOrigin` in a CUDA 12.4 environment. But you should select the version of PyTorch that is suitable to the CUDA version of your machine. You can find the appropriate version on the [PyTorch](https://github.com/ZJUFanLab/scNiche#:~:text=version%20on%20the-,PyTorch,-and%20DGL%20website) website.
-## Run CytOrigin
+### Run CytOrigin
 For training the VAE model and simulation of the cell expression matrix of the middle time point, please refer to the two demo scripts in sequence:
 
 [Step 1 Training the model and interpolation](https://github.com/ldo2zju/Cytorigin/blob/main/CytOrigin_1_simulation.ipynb)
