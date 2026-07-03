@@ -17,7 +17,7 @@ conda activate cytorigin
 ### Install PyTorch
 We developped `CytOrigin` in a CUDA 12.4 environment. But you should select the version of PyTorch that is suitable to the CUDA version of your machine. You can find the appropriate version on the [PyTorch](https://github.com/ZJUFanLab/scNiche#:~:text=version%20on%20the-,PyTorch,-and%20DGL%20website) website.
 ### Run CytOrigin
-For training the VAE model and simulation of the cell expression matrix of the middle time point, please refer to the scripts in the vignettes folder:
+Please check the step-by-step tutorial in the vignettes folder:
 
 [Step 1 Setup environment](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_1_Setup_environment.ipynb)
 
