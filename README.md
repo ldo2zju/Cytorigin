@@ -17,11 +17,17 @@ conda activate cytorigin
 ### Install PyTorch
 We developped `CytOrigin` in a CUDA 12.4 environment. But you should select the version of PyTorch that is suitable to the CUDA version of your machine. You can find the appropriate version on the [PyTorch](https://github.com/ZJUFanLab/scNiche#:~:text=version%20on%20the-,PyTorch,-and%20DGL%20website) website.
 ### Run CytOrigin
-For training the VAE model and simulation of the cell expression matrix of the middle time point, please refer to the two demo scripts in sequence:
+For training the VAE model and simulation of the cell expression matrix of the middle time point, please refer to the scripts in the vignettes folder:
 
-[Step 1 Training the model and interpolation](https://github.com/ldo2zju/Cytorigin/blob/main/CytOrigin_1_simulation.ipynb)
+[Step 1 Setup environment](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_1_Setup_environment.ipynb)
 
-[Step 2 Correct zero expressions](https://github.com/ldo2zju/Cytorigin/blob/main/CytOrigin_2_correction_zero_expression.ipynb)
+[Step 2 Setup model and helper functions](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_2_Setup_model_and_define_functions.ipynb)
+
+[Step 3 Load and preprocess](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_3_Load_and_preprocess.ipynb)
+
+[Step 4 Simulation](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_4_Simulation.ipynb)
+
+[Step 5 Correct the interpolated expressions](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_5_Correct_the_simulated_expressions.ipynb)
 ## About
 CytOrigin is developped by Haoxue Cao. Should you have any questions, please contact Haoxue Cao at [3200102931@zju.edu.cn](3200102931@zju.edu.cn).
 ## License
