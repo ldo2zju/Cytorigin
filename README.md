@@ -28,6 +28,10 @@ Please check the step-by-step tutorial in the vignettes folder:
 [Step 4 Simulation](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_4_Simulation.ipynb)
 
 [Step 5 Correct the interpolated expressions](https://github.com/ldo2zju/Cytorigin/blob/main/vignettes/Step_5_Correct_the_simulated_expressions.ipynb)
+
+The data used in demo can be downloaded from the following website:
+CS7 scRNA-seq data: [https://www.nature.com/articles/s41592-024-02493-2](https://www.nature.com/articles/s41592-024-02493-2)
+CS9 scRNA-seq data: [https://xomics.com.cn/embryo/CS9.php](https://xomics.com.cn/embryo/CS9.php)
 ### Other descriptions
 The notebook Plot_the_embryo_tree_with_circular_layouts.ipynb was used to create the combination chart in Figure 1. The Rscript Integrate_the_embryo_tree.R was used to integrate the developmental tree and calculate stage-wise TF expressions.
 ## About
